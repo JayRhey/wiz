@@ -1,0 +1,55 @@
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh !important;
+}
+
+.carousel .carousel-item {
+  width: 100% !important;
+  height: 100% !important;
+}
+.carousel-item:hover{
+    cursor: pointer;
+}
+
+@media (min-width: 600px) and (orientation: landscape) {
+  .carousel .carousel-item {
+    width: 500px !important;
+    height: 500px !important;
+  }
+  .carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh !important;
+  }
+  a.brand-logo.hide-on-large-only {
+    margin: 10px;
+  }
+}
+
+@media (max-width: 599px), (orientation: portrait) {
+  .carousel .carousel-item {
+    width: 200px !important;
+    height: 200px !important;
+  }
+  .carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25vh !important;
+    margin-top: 50px;
+  }
+   a.brand-logo.hide-on-large-only {
+    margin: 5px;
+  }
+  nav.nav-center ul {
+    text-align: left;
+  }
+  nav.nav-center ul li {
+      display: block;
+      float: none;
+  }
+
+}

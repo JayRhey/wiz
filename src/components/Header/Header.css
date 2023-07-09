@@ -1,0 +1,146 @@
+.container-fluid-custom {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+
+.logo {
+  float: left !important;
+  margin-top: 10px;
+}
+
+nav.nav-center ul {
+  text-align: center;
+}
+
+nav.nav-center ul li {
+  display: inline;
+  float: none;
+}
+
+nav.nav-center ul li a {
+  display: inline-block;
+}
+
+.nav-center ul li a:hover {
+  background-color: white;
+  color: #1d1d1f;
+  transition: 0.5s;
+}
+
+.nav-custom {
+  background-color: #1d1d1f;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+svg:not(:root).svg-inline--fa,
+svg:not(:host).svg-inline--fa {
+  overflow: visible;
+  box-sizing: content-box;
+}
+
+.svg-inline--fa {
+  display: var(--fa-display, inline-block);
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: rgba(51, 51, 51, 0.2);
+  opacity: 0;
+  display: none;
+  padding: 10px;
+  transition: opacity 0.3s ease;
+}
+
+.dropdown-item {
+  flex-basis: 130px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  color: #1d1d1f;
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh !important;
+}
+
+.carousel .carousel-item {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.carousel-item:hover {
+  cursor: pointer;
+}
+
+@media (min-width: 600px) and (orientation: landscape) {
+  .carousel .carousel-item {
+    width: 500px !important;
+    height: 500px !important;
+  }
+
+  .carousel {
+    height: 80vh !important;
+  }
+
+  a.brand-logo.hide-on-large-only {
+    margin: 10px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .container-fluid-custom {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  nav.nav-center ul {
+    text-align: center;
+    display: inline-flex;
+    padding: 10px;
+  }
+
+  nav.nav-center ul li {
+    float: none;
+  }
+}
+@media (max-width: 992px){
+ nav.nav-center ul {
+    text-align: center;
+    display: block;
+    padding: 10px;
+  }
+
+  nav.nav-center ul li {
+    float: none;
+  }
+}
+@media (max-width: 599px), (orientation: portrait) {
+  .carousel .carousel-item {
+    width: 200px !important;
+    height: 200px !important;
+  }
+
+  .carousel {
+    height: 25vh !important;
+    margin-top: 50px;
+  }
+
+  a.brand-logo.hide-on-large-only {
+    margin: 5px;
+  }
+}

@@ -1,0 +1,26 @@
+.learn-more-btn {
+    background-color: #f0f0f0 !important;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5), -4px -4px 8px rgba(255, 255, 255, 0.8);
+    border: none;
+    border-radius: 20px !important;
+    width: 140px !important;
+    position: fixed;
+    bottom: 500px;
+    right: -50px;
+    margin-left: 6px;
+}
+@media (min-width: 1024px) {
+  .learn-more-btn {
+    bottom: 24px;
+  }
+}
+
+.learn-more-btn:hover{
+    width: 160px !important;
+    transition: 1.3s;
+}
+.float-img{
+    width: 50px;
+    height: 50px;
+    float:left;
+}

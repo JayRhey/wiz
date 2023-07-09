@@ -1,0 +1,16 @@
+.nav-item:hover .dropdown-menu {
+  display: flex;
+  opacity: 1; 
+}
+a.SubMenu{
+     color: #1d1d1f !important;
+     font-weight: 300;
+    
+}
+a.SubMenu:hover{
+    background-color: transparent !important;
+    color: white !important;
+}
+li.sub-navbar-items.nav-item {
+    margin: 50px;
+}

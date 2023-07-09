@@ -1,0 +1,54 @@
+.nav-wrapper {
+  position: relative;
+}
+
+.nav-wrapper .tabs {
+  position: relative;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  background-color: #f0f0f0;
+  border-radius: 50px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2), -4px -4px 8px rgba(255, 255, 255, 0.8);
+  transition: box-shadow 0.3s ease
+}
+
+.nav-wrapper .tabs.tabs-fixed-width {
+  width: 100%;
+}
+
+.nav-wrapper .tabs.tabs-fixed-width li {
+  display: inline-block;
+  float: none;
+}
+
+.nav-wrapper .tabs.tabs-fixed-width li.tab {
+  width: auto;
+  float: none;
+}
+
+.nav-wrapper .tabs.tabs-fixed-width li a:not(.active) {
+    color: #31344b;
+    background-color: #e6e7ee;
+    border-color: #D1D9E6;
+    box-shadow: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #fff;
+}
+
+.nav-wrapper .tabs.tabs-fixed-width .indicator {
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  background-color: transparent;
+  will-change: left, right;
+  
+}
+.card {
+  border-radius: 8px;
+
+}
+.card:hover {
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.3), -6px -6px 12px rgba(255, 255, 255, 0.9);
+}
+.card-content {
+  padding: 1rem;
+}
